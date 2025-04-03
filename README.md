@@ -14,10 +14,8 @@ The simulation is kept intentionally simple and **protocol-agnostic**, with a fo
 
 | Protocol Name     | Description | Location |
 |------------------|-------------|----------|
-| **Utopia**        | A basic, idealistic one-way protocol with no acknowledgments, no retransmissions, and no error detection or correction. Assumes a perfect channel with infinite buffering and no delays. | [`examples/01_utopia`](examples/01_utopia) |
-| **Stop-and-Wait** | A basic reliable transmission protocol where each frame must be acknowledged before the next is sent. Includes timeout and simulated ACK logic. Retransmission logic is not yet implemented. | [`examples/02_stop_and_wait`](examples/02_stop_and_wait) |
-
-More protocols (Go-Back-N, Selective Repeat, etc.) will be added soon.
+| **Utopia**        | A basic, idealistic one-way protocol with no acknowledgments, no retransmissions, and no error detection or correction. Assumes a perfect channel with infinite buffering and no delays. | [`src/examples/01_utopia`](src/examples/01_utopia) |
+| **Stop-and-Wait** | A basic reliable transmission protocol where each frame must be acknowledged before the next is sent. Includes timeout and simulated ACK logic. Retransmission logic is not yet implemented. | [`src/examples/02_stop_and_wait`](src/examples/02_stop_and_wait) |
 
 ---
 
