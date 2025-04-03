@@ -1,0 +1,19 @@
+[package]
+name = "net"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8"
+
+[lib]
+name = "net"
+path = "src/lib.rs"
+
+[[example]]
+path = "src/examples/01_utopia/main.rs"
+name = "utopia"
+
+[[example]]
+path = "src/examples/02_stop_and_wait/main.rs"
+name = "stop_and_wait"
